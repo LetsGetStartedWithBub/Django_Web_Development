@@ -23,7 +23,7 @@
 - `pip install wikipedia`
 - `pip install email`
 
-#### All the steps after this are for those who are creating from stratch not required if you wish to clone this project
+#### ✋✋All the steps after this are for those who are creating from stratch not required if you wish to clone this project✋✋
 
 ## Create Django Project :
 - `django-admin startproject Myproject`
