@@ -1,6 +1,8 @@
 # Django_Web_Development
 
-## For django tutorials : <a href = "https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p"></a>
+## For django tutorials : <a href = "https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p">👉CLICK</a>
+
+## For NLP Based Scraping Bot : <a href = "https://www.youtube.com/watch?v=bjw8187Wi9o&t=20s">👉CLICK</a>
 
 ## create and activate environment : 
 ###### (When anaconda is present)
