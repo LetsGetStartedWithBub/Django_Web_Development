@@ -103,7 +103,3 @@ def send_mail(request):
         return render(request, 'Myapp/send_mail.html', {'ans': ans})
     # terminating the session
     
-<<<<<<< HEAD
-
-=======
->>>>>>> bd6b110c4cd35d74a9491721fe2a7604fb395549
