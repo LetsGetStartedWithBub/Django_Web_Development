@@ -20,12 +20,12 @@ def send_mail(name, email, message):
     s.starttls()
 
     # Authentication
-    s.login("mitchellanthony1999august@gmail.com", "uqrrvfnreoetqhqq")
+    s.login("Your Mail ID", "Your Pass Key")
 
     msg = MIMEMultipart()
-    message_template = read_template('APP/message.txt')
+    message_template = read_template('Myapp/message.txt')
     message = message_template.substitute(PERSON_NAME=name,MESSAGE=message)
-    msg['From'] = 'mitchellanthony1999august@gmail.com'
+    msg['From'] = 'Your Mail ID'
     msg['To'] = email
     msg['Subject'] = "CONFORMATION MAIL"
     # add in the message body
@@ -34,10 +34,10 @@ def send_mail(name, email, message):
         s.send_message(msg)
         s.quit()
         ans = "Message Sent"
-        return render(request, 'APP/send_mail.html', {'ans': ans})
+        return render(request, 'Myapp/send_mail.html', {'ans': ans})
     except Exception as e:
         s.quit()
         ans = "Message Not Sent"
-        return render(request, 'APP/send_mail.html', {'ans': ans})
+        return render(request, 'Myapp/send_mail.html', {'ans': ans})
     # terminating the session
     
