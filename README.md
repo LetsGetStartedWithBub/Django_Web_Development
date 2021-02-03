@@ -1,3 +1,4 @@
+# (Main Branch consist of full code)
 # Django_Web_Development
 
 ## For django tutorials : <a href = "https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p">👉CLICK</a>
