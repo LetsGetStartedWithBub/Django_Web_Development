@@ -9,17 +9,25 @@ import wikipedia
 import webbrowser
 import random
 from string import Template
-
+from django.views import View
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.decorators import login_required
 #import speech_recognition as sr
 #import pyttsx3
 
 # Create your views here.
 
 # Create your views here.
+
 def home(request):
     template_name = 'APP/home.html'
-
     return render(request, template_name)
+
+class HomePageView(LoginRequiredMixin, View):
+    def get(self, request):
+        template_name = 'APP/home.html'
+        return render(request, template_name)
+
 
 def chat(request):
     return render(request, 'APP/chat_view.html')
@@ -44,7 +52,7 @@ def bot_search(request):
  
 
     try:
-        client = wolframalpha.Client("LR923L-9T34JW6H9Q")
+        client = wolframalpha.Client("WORLFRAMALPHA APP KEY")
         res = client.query(query)
         ans = next(res.results).text
         return render(request, 'Myapp/chat_view.html', {'ans': ans, 'query': query})
