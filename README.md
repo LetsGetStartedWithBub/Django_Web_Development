@@ -59,5 +59,5 @@ Good examples of using mixins are Django's class-based views. For example, you h
 Another example is if you needed to add a class for an API that returns a JSON result. It could also be inherited from a base, View class. You simply skip template mixins, and define what you need (and probably write your own mixin for JSON encoding).
 Additionally, you may override some of methods proposed in mixins which allow you to modify some parts of common code for your local case. It's all about OOP concept. Decorators are used to modify existing functionalities.</p>
 
-p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=mitchell-anthony&repo=github-readme-stats&theme=chartreuse-dark&show_icons=true&count_private=true" alt="srimathij" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=letsgetstartedwithbub&repo=github-readme-stats&theme=chartreuse-dark&show_icons=true&count_private=true" alt="srimathij" /></p>
 
